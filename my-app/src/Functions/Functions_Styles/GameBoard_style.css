@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+.Container{
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.X_ScoreBoard .Main_Score td{
+    height: 100px;
+    border: 10px white solid;
+    background-color: red;
+}
+.X_ScoreBoard td{
+    border: 3px red solid;
+    color: white;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.X_ScoreBoard th{
+    border: 3px red solid;
+    color: white;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.X_ScoreBoard{
+    border: 4px white solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px 100px;
+}
+.Y_ScoreBoard .Main_Score td{
+    height: 100px;
+    border: 10px white solid;
+    background-color: blue;
+}
+.Y_ScoreBoard td{
+    border: 3px blue solid;
+    color: white;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.Y_ScoreBoard th{
+    border: 3px blue solid;
+    color: white;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.Y_ScoreBoard{
+    border: 4px white solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px 100px;
+}
+
+
+
+.GamePlay{
+    border: 1px red solid;
+    padding: 3px 30px;
+    position: relative;
+}
+
+.ShowTurn{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.ShowTurn label{
+    width: 100%;
+    border: 1px white solid;
+    padding: 5px;
+    text-align: center;
+}
+
+.Board{
+    display: flex;
+}
+.Board .Square{
+    border: 5px solid white;
+    border-left: 0px;
+    border-top: 0px;
+    height: 100px;
+    width: 100px;
+}
+.Board .Square_top_left{
+border: 5px solid white;
+height: 100px;
+width: 100px;
+}
+.Board .Square_top{
+border: 5px solid white;
+border-left: 0px;
+height: 100px;
+width: 100px;
+}
+.Board .Square_left{
+border: 5px solid white;
+border-top: 0px;
+height: 100px;
+width: 100px;
+}
+.Board button{
+color: white;
+background: gray;
+width: 100%;
+height: 100%;
+}
+.Board button:hover{
+background-color: yellow;
+}
+
+.Start_Reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.Start_Reset button{
+    height: 40px;
+    width: 60px;
+    background-color: cyan;
+    margin: 20px;
+    margin-top: 20px;
+    color: black;
+}
+.Start_Reset .Start:hover{
+    background-color: green;
+    color: white;
+}
+.Start_Reset .Reset:hover{
+    background-color: red;
+    color: white;
+}
