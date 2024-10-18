@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  background-color: black
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0px;
+}
+
+header{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px white solid;
+  justify-content: space-between;
+}
+header h1{
+  display: inline-block;
+  color: blue;
+  margin: 0px;
+  border: 1px solid black;
+  margin-left: 50px;
+  font-family: "Sixtyfour Convergence", sans-serif;
+}
+header a{
+  margin-right: 50px;
+  color: white;
+}
+header a:hover{
+  color: blue;
+}
+
+main{
+  flex: 1;
+  padding: 0px;
+}
+
+
+footer{
+  border-top: 1px solid white;
+  height: 180px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+footer .Contact-Details{
+  height: 170px;
+  color: white;
+  text-align: center;
+}
+footer label{
+  color: white;
+  font-size: 20px;
+}
+footer .Contact-Details a{
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  margin: 0px 25px;  
+}
+footer .Contact-Details a:hover{
+  color:forestgreen;
+}
+footer .Name{
+  height: 30px;
+  border-top: 1px grey solid;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+footer .Name label{
+  color: white;
+}
+footer .Name label span{
+  color: red;
+}
